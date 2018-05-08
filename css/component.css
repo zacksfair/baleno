@@ -140,4 +140,32 @@
 }
 
 
-
+.searchBlock{  
+    width: 110px;  
+    border-bottom:solid 1px #ddd;  
+    border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    -khtml-border-radius: 5px;  
+}  
+  
+.searchBlock span{  
+    float: left;  
+}  
+.searchText{  
+    border: none;  
+    width: 80px;  
+    margin: 2px 5px;  
+    outline: 0 none;  
+}  
+.searchBtn{  
+    border: none;  
+    width: 16px;  
+    height: 16px;  
+    cursor: pointer;  
+    background-image: url("../img/search.gif");  
+    background-repeat: no-repeat;  
+    display: inline;  
+    margin: 2px 0px;  
+    float: left;
+}  
